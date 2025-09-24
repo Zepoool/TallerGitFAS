@@ -4,19 +4,21 @@ Equipo: Equipo FAS
 Descripción: Programa de operaciones matemáticas simples en Python.
 """
 
-# Funciones básicas
-def suma(a, b):
+"""
+Funciones básicas
+"""
+# Definimos las funciones
+def sumar(a, b):
     return a + b
 
-def resta(a, b):
+def restar(a, b):
     return a - b
 
-# Bloque principal
-if __name__ == "__main__":
-    # Variables con valores asignados
-    a = 12
-    b = 4
+# Programa principal
+print("=== Calculadora de Suma y Resta ===")
+a = int(input("Ingrese el primer número: "))
+b = int(input("Ingrese el segundo número: "))
 
-    print("=== Proyecto Taller Git & GitHub ===")
-    print(f"Suma {a} + {b} = {suma(a, b)}")
-    print(f"Resta {a} - {b} = {resta(a, b)}")
+print("La suma es:", sumar(a, b))
+print("La resta es:", restar(a, b))
+
