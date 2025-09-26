@@ -11,6 +11,9 @@ def suma(a, b):
 def resta(a, b):
     return a - b
 
+def division(a, b):
+    return a / b
+
 # Bloque principal
 if __name__ == "__main__":
     # Variables con valores asignados
@@ -20,3 +23,4 @@ if __name__ == "__main__":
     print("=== Proyecto Taller Git & GitHub ===")
     print(f"Suma {a} + {b} = {suma(a, b)}")
     print(f"Resta {a} - {b} = {resta(a, b)}")
+    print(f"Division {a} / {b} = {division(a, b)}")
