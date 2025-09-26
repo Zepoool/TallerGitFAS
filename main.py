@@ -30,5 +30,5 @@ if __name__ == "__main__":
 
 print("La suma es:", sumar(a, b))
 print("La resta es:", restar(a, b))
-print("La multiplicación es:", multiplicacion(a,b))
+print("La multiplicación es:", multiplicacion(a, b))
 print("La división es:", division(a, b))
